@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Ejercicio2 {
@@ -9,10 +10,18 @@ public class Ejercicio2 {
 
         System.out.print("Ingrese su edad: ");
         int edad = scanner.nextInt();
+        scanner.nextLine();
 
-        System.out.print("Ingrese su nota final: ");
-        double nota = scanner.nextDouble();
+        System.out.print("Ingrese su ciudad: ");
+        String ciudad = scanner.nextLine();
 
-        System.out.println(nombre + " tiene " + edad + " años y obtuvo una nota de " + nota + ".");
+        System.out.println("\n--- Datos personales ---");
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad + " años");
+        System.out.println("Ciudad: " + ciudad);
+
+        scanner.close();
     }
 }
+
+
