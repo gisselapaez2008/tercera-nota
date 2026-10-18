@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Ejercicio5 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Ingresa tu color favorito: ");
+        String color = scanner.next();
+
+        System.out.println("Tu color favorito es: " + color);
+
+        scanner.close();
+    }
+}
